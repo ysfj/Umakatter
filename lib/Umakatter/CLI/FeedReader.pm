@@ -7,8 +7,6 @@ use Umakatter::CLI::FeedReader::Tweet;
 use strict;
 use Net::Twitter;
 use utf8;
-#binmode STDOUT, ":utf8";
-#use Encode qw(decode_utf8);
 
 has 'consumer_key' => (
 	is => 'ro',
