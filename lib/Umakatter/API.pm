@@ -1,6 +1,6 @@
 package Umakatter::API;
 use Moose;
-use Umakatter::APi::DB;
+use Umakatter::API::DB;
 
 no Moose;
 
