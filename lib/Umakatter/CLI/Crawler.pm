@@ -21,11 +21,9 @@ sub run {
 			$user->updated_on( $tweet->date );
 			$user->update();
 		}else{
-			my $strname = $tweet->author;
-			Umakatter::API::EncodeUtf8->encutf8( $strname );
 			$user = $schema->resultset('User')->create(
 				{
-					name => $strname,
+					name => $tweet->author;,
 					image_url => $tweet->image_url,
 					updated_on => $tweet->date,
 				}
