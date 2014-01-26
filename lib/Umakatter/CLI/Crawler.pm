@@ -2,7 +2,6 @@ package Umakatter::CLI::Crawler;
 use Moose;
 use Umakatter::CLI::FeedReader;
 use Umakatter::API::DB;
-use Umakatter::API::EncodeUtf8;
 
 has 'feed_reader' => (	is => 'rw', isa => 'Umakatter::CLI::FeedReader', required => 1 );
 
