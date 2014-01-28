@@ -65,7 +65,7 @@ L<Umakatter::Web::Controller::Root>, L<Catalyst>
 
 =head1 AUTHOR
 
-末藤 悠
+ysfj
 
 =head1 LICENSE
 
