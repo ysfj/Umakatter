@@ -14,27 +14,4 @@ __PACKAGE__->config(
     render_die => 1,
 );
 
-=head1 NAME
-
-Umakatter::Web::View::TT - TT View for Umakatter::Web
-
-=head1 DESCRIPTION
-
-TT View for Umakatter::Web.
-
-=head1 SEE ALSO
-
-L<Umakatter::Web>
-
-=head1 AUTHOR
-
-System Administrator
-
-=head1 LICENSE
-
-This library is free software. You can redistribute it and/or modify
-it under the same terms as Perl itself.
-
-=cut
-
 1;
