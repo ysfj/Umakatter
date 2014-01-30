@@ -1,1 +1,2 @@
-This code will collects and sohws tweets about nice restaulant.
+This code is working at
+http://ysfj.net/umakatter/
