@@ -1,1 +1,1 @@
-This cide will collects and sohws tweets about nice restaulant.
+This code will collects and sohws tweets about nice restaulant.
