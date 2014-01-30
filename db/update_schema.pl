@@ -13,8 +13,7 @@ make_schema_at(
 	$schema_class,
 	{
 		components => [qw/UTF8Columns InflateColumn::DateTime/],
-#文字コードutf8mb4を取り扱うためUTF8Columnsを使わない
-#		components => [ "InflateColumn::DateTime" ]
+		components => [ "InflateColumn::DateTime" ]
 		dump_directory => File::Spec->catfile( "$FindBin::Bin/../lib" ),
 		debug => 1,
 	},
